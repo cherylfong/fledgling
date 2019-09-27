@@ -46,7 +46,8 @@ void main() {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("hello-rectangle branch"),
+          title: Text('hello-rectangle branch'),
+          backgroundColor: Colors.greenAccent,
         ),
         body: HelloRectangle(),
       ),
