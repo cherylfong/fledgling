@@ -21,7 +21,11 @@ class MainApp extends StatelessWidget{
             ),
             backgroundColor: Colors.greenAccent,
           ),
-          body: Selection(),
+          body: Selection(
+              title: 'Test',
+              subtitle: 'subtitle',
+              color: Colors.cyan,
+              icon: Icons.bug_report),
         ),
       );
   }
