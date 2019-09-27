@@ -18,7 +18,19 @@ class HelloRectangle extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
 
-    return Center();
+    return Center(
+      child: Container(
+        color: Colors.deepPurpleAccent,
+        height: 300,
+        width: 300,
+        child: Center(
+          child: Text(
+            'HELLO',
+            style: TextStyle(fontSize: 50.0),
+          ),
+        ),
+      ),
+    );
 
   }
 }
