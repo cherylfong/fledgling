@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'selection.dart';
 
 // best practice to separate body widget into its own funct
 // this minimizes nesting braces
@@ -48,7 +49,7 @@ void main() {
           ),
           backgroundColor: Colors.greenAccent,
         ),
-        body: HelloRectangle(),
+        body: Selection(),
       ),
     ),
   );
